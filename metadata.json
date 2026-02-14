@@ -1,0 +1,5 @@
+{
+  "name": "Real Income Calculator",
+  "description": "A comprehensive financial tool to calculate in-hand salary, EMI obligations, and inflation-adjusted costs to determine your actual savings potential.",
+  "requestFramePermissions": []
+}
