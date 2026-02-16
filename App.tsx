@@ -11,6 +11,7 @@ import {
   X, 
   MessageCircleQuestion 
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 // Modal component for supplemental information (About & Legal)
 const Modal = ({ isOpen, onClose, title, children }: { isOpen: boolean, onClose: () => void, title: string, children?: React.ReactNode }) => {
@@ -367,6 +368,7 @@ const App: React.FC = () => {
       >
         <p>We do not store or track any of the financial data you enter. All calculations are performed entirely within your browser locally. Your data never leaves your device.</p>
       </Modal>
+      <Analytics />
     </div>
   );
 };
